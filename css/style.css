@@ -60,6 +60,7 @@ h3 {
 
 h2 {
   font-size: 2em;
+    text-shadow: -1px 0 lightyellow, 0 1px lightyellow, 1px 0 lightyellow, 0 -1px lightyellow;
 }
 
 .text {
@@ -67,6 +68,8 @@ h2 {
   max-width: 700px;
   margin: 40px auto;
   font-family: "Ubuntu", sans-serif;
+    #text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -1px 0 lightyellow, 0 1px lightyellow, 1px 0 lightyellow, 0 -1px lightyellow;
 }
 
 .social-link {
