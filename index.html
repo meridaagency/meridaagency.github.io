@@ -23,11 +23,8 @@
   <meta name="author" content="John Doe">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  
-  
-      <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
 
-  
 </head>
 
 <body>
@@ -35,16 +32,66 @@
   <div class="content-inner">
     <div class="logo"></div>
     <h2>Merida Agency
-        <span><h3>Agência de comunicação</h3></span>
+        <span lang="pt-br"><h3>Agência de comunicação</h3></span>
+        <span lang="en"><h3>Communication Agency</h3></span>
     </h2>
-    <p class="text">Nosso site está em construção. Em breve voltaremos com novas estratégias e muita criatividade para resultados incríveis para o seu negócio. Fique ligado!
+
+    <ul id="menu">
+    <div class="langen">
+        <li onclick="toggleLanguage('en')"><a href="#"><img src="united-states.png" width=40 height=40/></a></li>
+    </div>
+    <div class="langbr">
+        <li onclick="toggleLanguage('pt-br')"><a href="#"><img src="brazil.png" width=40 height=40/></a></li>
+    </div>
+    </ul>
+
+    <p class="text">
+        <span lang="pt-br">Nosso site está em construção. Em breve voltaremos com novas estratégias e muita criatividade para resultados incríveis para o seu negócio. Fique ligado!</span>
+        <span lang="en">Our website is under construction. We'll come soon with new strategies and lots of creativity that will boost your business. Stay tuned!</span>
     </p>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $('[lang]').hide();
+        $('[lang="pt-br"]').show();
+        $('#lang-switch').change(function () {
+            var lang = $(this).val();
+            switch (lang) {
+                case 'en':
+                    $('[lang]').hide();
+                    $('[lang="en"]').show();
+                break;
+                case 'pt-br':
+                    $('[lang]').hide();
+                    $('[lang="pt-br"]').show();
+                break;
+                default:
+                    $('[lang]').hide();
+                    $('[lang="pt-br"]').show();
+                }
+        });
+    </script>
+    <script>
+        function toggleLanguage(language) {
+            switch (language) {
+                case 'en':
+                    $('[lang]').hide();
+                    $('[lang="en"]').show();
+                break;
+                case 'pt-br':
+                    $('[lang]').hide();
+                    $('[lang="pt-br"]').show();
+                break;
+            }
+        }
+    </script>
+
     <div class="social">
       <a class="instagram social-link" title="Siga a Merida no Instagram" href="https://www.instagram.com/merida.agency" target="_blank">
-        <img src="instagram-icon.png" width=120 height=120/>
+        <img src="instagram-icon.png" width=60 height=60/>
       </a>
       <a class="mail social-link" title="Entre em contato conosco" href="mailto:agenciamerida@gmail.com" target="_blank">
-        <img src="mail-icon.png"/>
+        <img src="mail-icon.png" width=60 height=60/>
       </a>
     </div>
     

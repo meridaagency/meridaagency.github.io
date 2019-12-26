@@ -40,6 +40,20 @@ body {
   margin: auto;
 }
 
+.langbr {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    list-style-type: none;
+}
+
+.langen {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    list-style-type: none;
+}
+
 h1, h2 {
   font-family: "Ubuntu", sans-serif;
 }
@@ -64,7 +78,7 @@ h2 {
 }
 
 .text {
-  font-size: 1em;
+  font-size: 1.2em;
   max-width: 700px;
   margin: 40px auto;
   font-family: "Ubuntu", sans-serif;
