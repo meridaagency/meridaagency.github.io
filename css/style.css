@@ -54,6 +54,8 @@ body {
     list-style-type: none;
 }
 
+nav ul { list-style-type: none; }
+
 h1, h2 {
   font-family: "Ubuntu", sans-serif;
 }
