@@ -132,6 +132,20 @@ h2 {
     margin: 40px 20px;
     font-size: 1.2em;
   }
+
+    .langbr {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        list-style-type: none;
+    }
+
+    .langen {
+        position: absolute;
+        top: 15%;
+        right: 5%;
+        list-style-type: none;
+    }
 }
 /* UNUSED MEDIA QUERIES
   // Large Devices, Wide Screens 
