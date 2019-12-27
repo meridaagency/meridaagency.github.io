@@ -147,6 +147,22 @@ h2 {
         list-style-type: none;
     }
 }
+
+@media only screen and (max-width : 1200px) {
+    .langbr {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        list-style-type: none;
+    }
+    .langen {
+        position: absolute;
+        top: 15%;
+        right: 5%;
+        list-style-type: none;
+    }
+}
+
 /* UNUSED MEDIA QUERIES
   // Large Devices, Wide Screens 
     @media only screen and (max-width : 1200px) {
