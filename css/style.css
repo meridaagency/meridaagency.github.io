@@ -42,15 +42,15 @@ body {
 
 .langbr {
     position: absolute;
-    top: 20px;
-    right: 80px;
+    top: 5%;
+    right: 5%;
     list-style-type: none;
 }
 
 .langen {
     position: absolute;
-    top: 20px;
-    right: 150px;
+    top: 5%;
+    right: 10%;
     list-style-type: none;
 }
 
