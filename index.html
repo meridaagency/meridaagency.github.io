@@ -52,22 +52,6 @@
     <script>
         $('[lang]').hide();
         $('[lang="pt-br"]').show();
-        $('#lang-switch').change(function () {
-            var lang = $(this).val();
-            switch (lang) {
-                case 'en':
-                    $('[lang]').hide();
-                    $('[lang="en"]').show();
-                break;
-                case 'pt-br':
-                    $('[lang]').hide();
-                    $('[lang="pt-br"]').show();
-                break;
-                default:
-                    $('[lang]').hide();
-                    $('[lang="pt-br"]').show();
-                }
-        });
     </script>
     <script>
         function toggleLanguage(language) {
