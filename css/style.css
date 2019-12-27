@@ -135,14 +135,14 @@ h2 {
 
     .langbr {
         position: absolute;
-        top: 5%;
+        top: 5% !important;
         right: 5%;
         list-style-type: none;
     }
 
     .langen {
         position: absolute;
-        top: 15%;
+        top: 15% !important;
         right: 5%;
         list-style-type: none;
     }
@@ -151,13 +151,13 @@ h2 {
 @media only screen and (max-width : 1200px) {
     .langbr {
         position: absolute;
-        top: 5%;
+        top: 5% !important;
         right: 5%;
         list-style-type: none;
     }
     .langen {
         position: absolute;
-        top: 15%;
+        top: 15% !important;
         right: 5%;
         list-style-type: none;
     }
